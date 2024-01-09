@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+body {
+    background-color: rgb(152, 208, 210);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+    height: 45px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 40px;
+    padding: 0 7px;
+}
+
+#container{
+    height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('./images/music_bg2.jpg');
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.songlist{
+    margin-top: 25px;
+}
+
+.songItem{
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    width: 30%;
+    height: 44px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;    
+}
+
+.songItem img{
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    margin: 0px 5px;
+}
+
+
+.timestamp i{
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    bottom: 0;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.songinfo{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px 0px;
+}
+
+#ProgressBar{
+    width: 80vw;
+}
+
+.icons i{
+    padding: 8px 8px;
+    cursor: pointer;
+}
